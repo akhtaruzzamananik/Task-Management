@@ -6,4 +6,7 @@ def dashboard(request):
     return render(request, 'all_dashboard/manager_dashboard.html')
 
 def user_dashboard(request):
-    return render(request, 'all_dashboard/manager_dashboard.html')
+    return render(request, 'all_dashboard/user_dashboard.html')
+
+def test(request):
+    return render(request, 'test.html')
